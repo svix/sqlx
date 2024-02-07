@@ -147,6 +147,7 @@ impl PgConnection {
             cache_type_oid: HashMap::new(),
             cache_type_info: HashMap::new(),
             log_settings: options.log_settings.clone(),
+            svix_data: 0,
         })
     }
 }

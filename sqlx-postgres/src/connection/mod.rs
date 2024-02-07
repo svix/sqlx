@@ -64,6 +64,8 @@ pub struct PgConnection {
     pub(crate) transaction_depth: usize,
 
     log_settings: LogSettings,
+
+    pub svix_data: u64,
 }
 
 impl PgConnection {
